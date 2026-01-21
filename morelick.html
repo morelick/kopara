@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>مراجعة مبادئ إدارة الأعمال</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#0b0f14;
+    color:#fff;
+    direction:rtl;
+}
+
+.top-bar{
+    position:fixed;
+    top:0;
+    right:0;
+    width:100%;
+    background:#111822;
+    padding:10px;
+    z-index:1000;
+}
+
+.back-btn{
+    background:#ffd700;
+    color:#000;
+    border:none;
+    padding:8px 14px;
+    border-radius:10px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.container{
+    max-width:850px;
+    margin:auto;
+    padding:20px;
+    padding-top:70px;
+}
+
+.center{text-align:center;}
+
+.small{font-size:13px;color:#fff;}
+.title{font-size:24px;font-weight:bold;color:#ffd700;margin:10px 0;}
+.subtitle{font-size:16px;color:#fff;margin-bottom:25px;}
+
+.btn{
+    width:100%;
+    padding:18px;
+    margin:15px 0;
+    font-size:18px;
+    background:#ffd700;
+    color:#000;
+    border:none;
+    border-radius:14px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+.section{display:none;}
+
+h2,h3{color:#ffd700;margin-top:25px;}
+p,li{line-height:1.9;font-size:15px;}
+ul{padding-right:20px;}
+
+.question{
+    background:#111822;
+    padding:15px;
+    border-radius:12px;
+    margin:15px 0;
+}
+
+.option{
+    background:#ffd700;
+    color:#000;
+    padding:10px;
+    border-radius:10px;
+    margin:8px 0;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+.tf-btn{
+    width:48%;
+    display:inline-block;
+    text-align:center;
+}
+
+.message{margin-top:10px;font-weight:bold;}
+.success{color:#00ff88;}
+.error{color:#ff4444;}
+</style>
+</head>
+
+<body>
+
+<!-- ================= الصفحة الرئيسية ================= -->
+<div class="container center" id="home">
+    <div class="small">بسم الله الرحمن الرحيم</div>
+    <div class="title">مقرر مبادئ إدارة الأعمال</div>
+    <div class="subtitle">اختر أحد المواضيع الآتية</div>
+
+    <button class="btn" onclick="openSection('lec1')">
+        المحاضرة الأولى: مبادئ الإدارة
+    </button>
+
+    <button class="btn" onclick="openSection('lec2')">
+        المحاضرة الثانية: أهمية الإدارة
+    </button>
+
+    <div class="small">telegram: @morelick</div>
+</div>
+
+<!-- ================= المحاضرة الأولى كاملة ================= -->
+<div id="lec1" class="section">
+<div class="top-bar">
+<button class="back-btn" onclick="backHome()">← رجوع</button>
+</div>
+
+<div class="container">
+
+<h2>مقرر: مبادئ إدارة الأعمال – الفصل الأول</h2>
+<p>
+د/ سامح الفاضل محمد الفاضل<br>
+أستاذ الإدارة المساعد – كلية العلوم الاجتماعية – جامعة مروي
+</p>
+
+<h3>المفهوم العام لمعنى الإدارة</h3>
+<p>
+يُستخدم اصطلاح الإدارة للدلالة على معانٍ متعددة حسب السياق، ومنها:
+</p>
+<ul>
+<li>عملية يتم من خلالها تجميع الموارد المحدودة لتحقيق غايات محددة.</li>
+<li>علم من العلوم الاجتماعية.</li>
+<li>فن يتعلق بالتعامل مع الآخرين وتطبيق المبادئ الأساسية.</li>
+<li>مجموعة من الأفراد يعملون معًا في منشأة معينة.</li>
+<li>وحدة تنظيمية مثل إدارة المبيعات أو شؤون العاملين.</li>
+</ul>
+
+<h3>تعريفات الإدارة</h3>
+<p>
+عرف الإنسان الإدارة منذ القدم، لكن النظرية الحديثة للإدارة ظهرت في أوائل القرن العشرين وركزت على الكفاية الإنتاجية.
+</p>
+
+<p><b>فريدريك تايلور:</b> الإدارة هي المعرفة الدقيقة لما تريد من العاملين أن يقوموا به، ثم التأكد من أدائه بأفضل وأرخص طريقة.</p>
+
+<p><b>هنري فيول:</b> الإدارة عمل يتضمن التنبؤ، التخطيط، إصدار الأوامر، والرقابة.</p>
+
+<p><b>كولتر:</b> الإدارة هي إنجاز الأعمال عن طريق الآخرين ومعهم.</p>
+
+<p><b>التعريف الشامل:</b> الإدارة عملية تخطيط وتنظيم وقيادة ورقابة جهود الأفراد واستخدام موارد المنظمة لتحقيق الأهداف.</p>
+
+<h3>عناصر العملية الإدارية</h3>
+<ul>
+<li>التخطيط</li>
+<li>التنظيم</li>
+<li>القيادة</li>
+<li>الرقابة</li>
+</ul>
+
+<h3>عمومية الإدارة</h3>
+<p>
+تعني إمكانية نقل الخبرات والمعارف الإدارية من منشأة لأخرى، إلا أن هذا المفهوم تعرض للانتقاد بسبب التخصص العالي.
+</p>
+
+<h3>مجالات الإدارة</h3>
+<ul>
+<li>الإدارة العامة (القطاع العام)</li>
+<li>إدارة الأعمال (القطاع الخاص)</li>
+<li>الجمعيات التعاونية والخيرية</li>
+</ul>
+
+<h3>الفرق بين إدارة الأعمال والإدارة العامة</h3>
+<p><b>الأهداف:</b> خدمة المجتمع مقابل الربح.</p>
+<p><b>مجال التطبيق:</b> مؤسسات حكومية مقابل القطاع الخاص.</p>
+<p><b>الرقابة:</b> الخدمة مقابل الأرباح.</p>
+
+<h3>المستويات الإدارية</h3>
+<p>
+الإدارة العليا ← الإدارة الوسطى ← الإدارة الدنيا
+</p>
+
+<button class="btn" onclick="openSection('test1')">
+اختبار المحاضرة الأولى
+</button>
+
+</div>
+</div>
+
+<!-- ================= اختبار المحاضرة الأولى ================= -->
+<div id="test1" class="section">
+<div class="top-bar">
+<button class="back-btn" onclick="openSection('lec1')">← رجوع</button>
+</div>
+
+<div class="container">
+<h2>اختبار مبادئ الإدارة</h2>
+
+<!-- 5 أسئلة اختيار من متعدد -->
+<div class="question">
+<p>1) الإدارة هي:</p>
+<div class="option" onclick="correct(this)">عملية تخطيط وتنظيم وقيادة ورقابة</div>
+<div class="option" onclick="wrong(this)">إعداد القوائم المالية</div>
+<div class="option" onclick="wrong(this)">تسجيل القيود المحاسبية</div>
+<div class="option" onclick="wrong(this)">حساب الأرباح فقط</div>
+</div>
+
+<div class="question">
+<p>2) أول وظيفة إدارية هي:</p>
+<div class="option" onclick="correct(this)">التخطيط</div>
+<div class="option" onclick="wrong(this)">المراجعة</div>
+<div class="option" onclick="wrong(this)">الضرائب</div>
+<div class="option" onclick="wrong(this)">التدقيق</div>
+</div>
+
+<div class="question">
+<p>3) القيادة تعني:</p>
+<div class="option" onclick="correct(this)">التأثير على العاملين</div>
+<div class="option" onclick="wrong(this)">حفظ المستندات</div>
+<div class="option" onclick="wrong(this)">إعداد الميزانية</div>
+<div class="option" onclick="wrong(this)">حساب التكاليف</div>
+</div>
+
+<div class="question">
+<p>4) الرقابة هدفها:</p>
+<div class="option" onclick="correct(this)">تصحيح الانحرافات</div>
+<div class="option" onclick="wrong(this)">زيادة النفقات</div>
+<div class="option" onclick="wrong(this)">إلغاء التنظيم</div>
+<div class="option" onclick="wrong(this)">خفض الجودة</div>
+</div>
+
+<div class="question">
+<p>5) الإدارة علم وفن:</p>
+<div class="option tf-btn" onclick="correct(this)">✔ صح</div>
+<div class="option tf-btn" onclick="wrong(this)">✖ خطأ</div>
+</div>
+
+<!-- 5 أسئلة صح / خطأ -->
+<div class="question">
+<p>6) الإدارة تختص بالمحاسبة فقط</p>
+<div class="option tf-btn" onclick="wrong(this)">✔ صح</div>
+<div class="option tf-btn" onclick="correct(this)">✖ خطأ</div>
+</div>
+
+<div class="question">
+<p>7) التخطيط جزء من العملية الإدارية</p>
+<div class="option tf-btn" onclick="correct(this)">✔ صح</div>
+<div class="option tf-btn" onclick="wrong(this)">✖ خطأ</div>
+</div>
+
+<div class="question">
+<p>8) الرقابة تهدف للتأكد من سير العمل</p>
+<div class="option tf-btn" onclick="correct(this)">✔ صح</div>
+<div class="option tf-btn" onclick="wrong(this)">✖ خطأ</div>
+</div>
+
+<div class="question">
+<p>9) القيادة لا علاقة لها بالعاملين</p>
+<div class="option tf-btn" onclick="wrong(this)">✔ صح</div>
+<div class="option tf-btn" onclick="correct(this)">✖ خطأ</div>
+</div>
+
+<div class="question">
+<p>10) الإدارة علم وفن ومهنة</p>
+<div class="option tf-btn" onclick="correct(this)">✔ صح</div>
+<div class="option tf-btn" onclick="wrong(this)">✖ خطأ</div>
+</div>
+
+</div>
+</div>
+
+<!-- ================= المحاضرة الثانية كاملة ================= -->
+<div id="lec2" class="section">
+<div class="top-bar">
+<button class="back-btn" onclick="backHome()">← رجوع</button>
+</div>
+
+<div class="container">
+
+<h2>الفصل الأول – المحاضرة الثانية</h2>
+<h3>أهمية الإدارة</h3>
+
+<p>
+الوظيفة الإدارية تمتد إلى مختلف المستويات التنظيمية، ويمارس المديرون وظائف التخطيط والتنظيم والتوجيه والرقابة.
+</p>
+
+<p>
+الإدارة هي معيار النجاح أو الفشل، ولا يمكن لأي منشأة أن تكون ناجحة دون إدارة فعالة.
+</p>
+
+<h3>أهمية الإدارة</h3>
+<ul>
+<li>الإدارة أساس نجاح أي مشروع.</li>
+<li>الحافز الأساسي لأي جهد إنساني.</li>
+<li>تحسين صورة المنشأة.</li>
+<li>جمع المعلومات والتنبؤ بالمشكلات.</li>
+</ul>
+
+<h3>الإدارة بين العلم والفن والمهنة</h3>
+<p>
+الإدارة علم وفن ومهنة في آن واحد.
+</p>
+
+<h3>علاقة الإدارة بالعلوم الأخرى</h3>
+
+<p><b>علم الاجتماع:</b> دراسة الجماعات والعلاقات الاجتماعية داخل المنظمة.</p>
+
+<p><b>علم النفس:</b> دراسة سلوك الأفراد والعوامل المؤثرة فيه.</p>
+
+<ul>
+<li>علم النفس الصناعي</li>
+<li>علم النفس التنظيمي</li>
+<li>علم النفس الإداري</li>
+</ul>
+
+<p><b>الرياضيات:</b> بحوث العمليات والنماذج الإحصائية.</p>
+
+<p><b>الاقتصاد والقانون:</b> تنظيم الموارد والتشريعات.</p>
+
+<button class="btn" onclick="openSection('test2')">
+اختبار المحاضرة الثانية
+</button>
+
+</div>
+</div>
+
+<!-- ================= اختبار المحاضرة الثانية ================= -->
+<div id="test2" class="section">
+<div class="top-bar">
+<button class="back-btn" onclick="openSection('lec2')">← رجوع</button>
+</div>
+
+<div class="container">
+<h2>اختبار أهمية الإدارة</h2>
+
+<!-- 5 أسئلة اختيار من متعدد -->
+<div class="question">
+<p>1) الإدارة هي معيار النجاح في:</p>
+<div class="option" onclick="correct(this)">المنشآت</div>
+<div class="option" onclick="wrong(this)">حفظ الأرشيف</div>
+<div class="option" onclick="wrong(this)">تسجيل الضرائب</div>
+<div class="option" onclick="wrong(this)">المحاسبة فقط</div>
+</div>
+
+<div class="question">
+<p>2) الإدارة تمارس في:</p>
+<div class="option" onclick="correct(this)">جميع المستويات التنظيمية</div>
+<div class="option" onclick="wrong(this)">الإدارة العليا فقط</div>
+<div class="option" onclick="wrong(this)">القسم المالي فقط</div>
+<div class="option" onclick="wrong(this)">المحاسبة فقط</div>
+</div>
+
+<div class="question">
+<p>3) علم النفس الإداري يهتم بـ:</p>
+<div class="option" onclick="correct(this)">سلوك الأفراد داخل المنظمة</div>
+<div class="option" onclick="wrong(this)">الضرائب فقط</div>
+<div class="option" onclick="wrong(this)">حساب الأرباح فقط</div>
+<div class="option" onclick="wrong(this)">إعداد الميزانية فقط</div>
+</div>
+
+<div class="question">
+<p>4) الإدارة تجمع بين:</p>
+<div class="option" onclick="correct(this)">علم وفن ومهنة</div>
+<div class="option" onclick="wrong(this)">مهنة فقط</div>
+<div class="option" onclick="wrong(this)">فن فقط</div>
+<div class="option" onclick="wrong(this)">علم فقط</div>
+</div>
+
+<div class="question">
+<p>5) الإدارة تحسن صورة المنشأة عن طريق:</p>
+<div class="option" onclick="correct(this)">تقديم أفضل الخدمات</div>
+<div class="option" onclick="wrong(this)">زيادة الضرائب</div>
+<div class="option" onclick="wrong(this)">إلغاء التخطيط</div>
+<div class="option" onclick="wrong(this)">خفض الجودة</div>
+</div>
+
+<!-- 5 أسئلة صح / خطأ -->
+<div class="question">
+<p>6) الإدارة تعتمد على العنصر البشري</p>
+<div class="option tf-btn" onclick="correct(this)">✔ صح</div>
+<div class="option tf-btn" onclick="wrong(this)">✖ خطأ</div>
+</div>
+
+<div class="question">
+<p>7) الإدارة لا علاقة لها بعلم النفس</p>
+<div class="option tf-btn" onclick="wrong(this)">✔ صح</div>
+<div class="option tf-btn" onclick="correct(this)">✖ خطأ</div>
+</div>
+
+<div class="question">
+<p>8) الإدارة تجمع بين التخطيط والتنظيم والتوجيه والرقابة</p>
+<div class="option tf-btn" onclick="correct(this)">✔ صح</div>
+<div class="option tf-btn" onclick="wrong(this)">✖ خطأ</div>
+</div>
+
+<div class="question">
+<p>9) علم الاجتماع لا يساعد الإدارة على فهم الجماعات</p>
+<div class="option tf-btn" onclick="wrong(this)">✔ صح</div>
+<div class="option tf-btn" onclick="correct(this)">✖ خطأ</div>
+</div>
+
+<div class="question">
+<p>10) الإدارة الناجحة تساعد في تحقيق أهداف المنشأة</p>
+<div class="option tf-btn" onclick="correct(this)">✔ صح</div>
+<div class="option tf-btn" onclick="wrong(this)">✖ خطأ</div>
+</div>
+
+</div>
+</div>
+
+<script>
+function openSection(id){
+    ["home","lec1","lec2","test1","test2"].forEach(s=>{
+        let el=document.getElementById(s);
+        if(el) el.style.display="none";
+    });
+    document.getElementById(id).style.display="block";
+}
+
+function backHome(){
+    openSection("home");
+}
+
+function correct(el){
+    showMsg(el,"ممتاز","success");
+}
+
+function wrong(el){
+    showMsg(el,"إجابة خاطئة","error");
+}
+
+function showMsg(el,text,cls){
+    let msg=document.createElement("div");
+    msg.className="message "+cls;
+    msg.innerText=text;
+    el.parentNode.appendChild(msg);
+    setTimeout(()=>msg.remove(),3000);
+}
+</script>
+
+</body>
+</html>
